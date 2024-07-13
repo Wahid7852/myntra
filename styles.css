@@ -180,25 +180,113 @@ video {
     background-color: #d93a3a;
 }
 
+.profile {
+    background-color: #f3a0b9;
+    border-radius: 10px;
+    padding: 20px;
+    width: 700px;
+    /* text-align: center; */
+}
+                
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+                
+.profile-header img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+                
+.profile-header h3 {
+    margin: 10px 0 0;
+    font-size: 24px;
+    color: #000;
+}
+                
+.profile-header p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+}
+                
+.profile-header button {
+    background-color: #ff527b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+                
+ .profile-header button:hover {
+    background-color: #ff3a68;
+}
+                
+.profile-content {
+    margin-top: 20px;
+}
+                
+.minis,
+.moodboards {
+    margin-bottom: 20px;
+}
+                
+.minis h4,
+.moodboards h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+                
+.minis img,
+.moodboards img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+                
+.moodboards .moodboard {
+    margin-bottom: 10px;
+}
+                
+.minis button {
+    background-color: #ff527b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+                
+.minis button:hover {
+    background-color: #ff3a68;
+}
+
 .carousel {
     width: 100%;
-    max-width: 800px; /* Adjust the maximum width as per your layout */
+    max-width: 871px; /* Adjust the maximum width as per your layout */
     overflow: hidden;
     margin: 20px auto; /* Center the carousel with some top and bottom margin */
   }
   
-  .carousel-inner {
+.carousel-inner {
     display: flex;
     transition: transform 0.5s ease;
   }
   
-  .carousel-inner img {
-    width: 100%;
+.carousel-inner img {
+    width: auto;
     height: auto;
   }
   
 
-  button {
+button {
     background-color: #ff0066;
     color: #fff;
     border: none;
